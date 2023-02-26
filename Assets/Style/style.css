@@ -1,0 +1,16 @@
+.transitions{
+    animation:transitionIn 0.75s;
+}
+.animationText-v1 {
+    color: #000000;
+    font-size: 4rem;
+    top: 30%;
+    width: auto;
+    font-weight: 100;
+}
+
+.animationText-v2 {
+    color: #000000;
+    font-weight: 100;
+    border-bottom: 2px solid #999999;
+}

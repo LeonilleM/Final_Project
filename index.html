@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leonille Matunan</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <link rel="stylesheet" href="./Assets/Style/style.css">
+</head>
+
+<body>
+  <nav class="flex items-center justify-between flex-wrap p-6">
+    <div class="flex items-center flex-shrink-0 text-white mr-6">
+      <span class="font-semibold text-xl tracking-tight text-black">Leonille Matunan</span>
+    </div>
+    <div>
+      <a href="#" class="inline-block text-sm px-4 py-2 leading-none text-grey-500 hover:text-blue-500">Projects</a>
+      <a href="#" class="inline-block text-sm px-4 py-2 leading-none  text-grey-500 hover:text-blue-500">About</a>
+    </div>
+    </div>
+  </nav>
+
+  <div class="transitions">
+    <div class="flex center w-[500]">
+      <h2 class="animationText-v1">
+        <strong style="font-weight: 500;">HI, I'M LEONILLE MATUNAN</strong><br>
+        <strong class="animationText-v2 u-text-animation-v1 u-text-animation-v1--typing"></strong>
+    </div>
+  </div>
+  <!--IMPORTS FROM JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="./Assets/JS/jquery.min.js"></script>
+  <script src="./Assets/JS/typed.min.js"></script>
+  <script>
+    $(document).on('ready', function () {
+      var typed = new Typed(".u-text-animation-v1.u-text-animation-v1--typing", {
+        strings: ["CSSE STUDENT", "&amp; ASPIRING SOFTWARE ENGINEER",],
+        typeSpeed: 50,
+        loop: false,
+        backSpeed: 20,
+        backDelay: 2500
+
+      });
+    });
+  </script>
+</body>
+
+</html>
