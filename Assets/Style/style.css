@@ -30,6 +30,7 @@ span{
 .transitions{
     animation:transitionIn 0.75s;
 }
+
 .animationText-v1 {
     color: white;
     font-size: 4rem;
@@ -55,5 +56,10 @@ span{
 .write-up-body{
     line-height: 2;
     text-indent: 40px;
+}
+
+img{
+    height:400px;
+    width:400px;
 }
 
