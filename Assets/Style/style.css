@@ -1,25 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
-*{
-    padding:0;
+* {
+    padding: 0;
     margin: 0;
+    
 }
 
-body{
+html{
+    scroll-behavior: smooth;
+}
+
+body {
     font-family: 'Inter', sans-serif;
 }
 
-hr{
+hr {
     background-color: #9EADB2;
-    height:2px;
+    height: 2px;
     border: none;
 }
 
-span{
+span {
     color: #BD8C88;
 }
 
-.background-img{
+.background-img {
     background-image: url(../Photos/photo2.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -27,8 +32,8 @@ span{
     height: 100vh;
 }
 
-.transitions{
-    animation:transitionIn 0.75s;
+.transitions {
+    animation: transitionIn 0.75s;
 }
 
 .animationText-v1 {
@@ -45,21 +50,30 @@ span{
     border-bottom: 2px solid #e4e4e4;
 }
 
-.footer-img{
+.footer-img {
     background-image: url(../Photos/photo2.jpg);
-    height:180px;
+    height: 180px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.write-up-body{
+.write-up-body {
     line-height: 2;
     text-indent: 40px;
 }
 
-img{
-    height:400px;
-    width:400px;
+img {
+    height: 325px;
+    width: 550px;
 }
 
+.btn-outline-secondary {
+    border-color: #9EADB2;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #9EADB2;
+    border-color: transparent;
+    transition: .5s;
+}

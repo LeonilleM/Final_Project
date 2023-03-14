@@ -57,90 +57,93 @@
     </div>
   </div>
 
-  <!-- projects -->
-  <div class="container px-4" style="margin-top:15rem" id="project">
+
+  <!--Projects -->
+  <div class="container px-4 pb-5" style="margin-top:15rem" id="project">
     <hr>
-    <div class="row justify-content-center">
-      <div class="col-auto my-2">
+    <!--In Class Projects-->
+    <div class="row justify-content-center pb-5 mb-5">
+      <!--Headline-->
+      <div class="col-auto my-2 pb-4">
         <h1 class="display-4">BIMD233 WORK</h1>
       </div>
-      <!--Project1-->
-      <div class="row gx-5">
-        <div class="col-2 border">
-          <h1><b>Midterm Project</b></h1>
+
+      <!--Class Project1-->
+      <div class="row gx-5 justify-content-center">
+        <div class="col-sm-2">
+          <h1 class="fw-bold fs-1">Midterm Project</h1>
           <p><span>Restaurant Inspired Website</span></p>
         </div>
-        <div class="col mx-5 border">
+        <div class="col-sm mx-5 mb-5">
           <p>My Midterm project was created through the use of html and css. It's a basic website, that utilized my
             knowledge in UX design, and tried to encapsulate your typical restaurant website.</p>
           <button class="btn btn-outline-secondary" type="submit"
             onclick="window.open('https://students.washington.edu/leonille/midterm/')"> View Midterm</button>
         </div>
-        <div class="col">
-          <div class="col-12 d-flex justify-content-center align-items-center">
-            <img src="/Assets/Photos/midterm.jpg">
-          </div>
+        <div class="col-sm-6 d-flex justify-content-center align-items-center">
+          <img class ="rounded" src="/Assets/Photos/midterm.jpg">
         </div>
       </div>
 
-      <div class="container py-4 pt-3"></div>
-      <!--Project2-->
-      <div class="row gx-5">
-        <div class="col">
-          <div class="col-12 d-flex justify-content-center align-items-center">
-            <img src="Assets/Photos/LabExample.png">
-          </div>
+      <!--Class Project2-->
+      <div class="row justify-content-center gx-5 mt-5 pt-3">
+        <div class="col-sm-6 d-flex justify-content-center align-items-center">
+          <img class ="rounded" src="Assets/Photos/LabExample.png">
         </div>
-        <div class="col mx-5">
+        <div class="col-sm mx-5 mb-4 mt-4">
           <p>The labs we've done in class help improve upon my current skillsets when it came to building websites.
             Through the labs, I was able to learn new techniques on properly building websites.</p>
           <button class="btn btn-outline-secondary" type="submit"
             onclick="window.open('https://students.washington.edu/leonille/bimd233/')"> View Labs</button>
         </div>
-        <div class="col-2">
-          <h1>Class Labs</h1>
+        <div class="col-sm-2">
+          <h1 class="fw-bold fs-1">Class Labs</h1>
           <p><span>Helped improve web-dev skills</span></p>
         </div>
-      </div>
-      <hr style="margin-top:3rem">
-      <div class="col-auto my-2">
-        <h1 class="display-4">PERSONAL WORK</h1>
       </div>
     </div>
 
     <!--Personal Project 1-->
-    <div class="row gx-5" style="border:1px solid red">
-      <div class="col-sm-auto" style="border:1px solid black">
-        <div class="p-3 border bg-light">
-          <h1>Weather app</h1>
+    <hr>
+    <div class="row justify-content-center pb-5">
+      <!--Headline-->
+      <div class="col-auto my-2 pb-4">
+        <h1 class="display-4">PERSONAL WORKS</h1>
+      </div>
+
+      <!--Personal Project1-->
+      <div class="row gx-5 justify-content-center">
+        <div class="col-sm-2">
+          <h1 class="fw-bold fs-1">Weather App</h1>
           <p><span>Check weather for any location</span></p>
         </div>
-      </div>
-      <div class="col mx-2" style="border:1px solid black">
-        <p>One of my personal projects was creating a weather application. It's quite basic which uses an API to find
-          the weather for any given location. </p>
-      </div>
-      <div class="col" style="border:1px solid black">
-        <div>
-          image holder
+        <div class="col-sm mx-5 mb-4">
+          <p>One of my personal projects was creating a weather application. It's quite basic which uses the openweather
+            API to fetch weather data.
+            Currently, the application only lets the user choose one location at a time to check weather conditions.
+          </p>
+          <button class="btn btn-outline-secondary" type="submit"
+            onclick="window.open('https://github.com/LeonilleM/WeatherApp')"> View Weather Repo</button>
+        </div>
+        <div class="col-sm-6 d-flex justify-content-center align-items-center">
+          <img class ="rounded" src="/Assets/Photos/weather.png">
         </div>
       </div>
-    </div>
-    <div class="container py-4"></div>
-    <!--Personal Project 2-->
-    <div class="row gx-5" style="border:1px solid red">
-      <div class="col" style="border:1px solid black">
-        <div>
-          image holder
+
+      <!--Personal Project2-->
+      <div class="row justify-content-center gx-5 mt-5 pt-3">
+        <div class="col-sm-6 d-flex justify-content-center align-items-center">
+          <img class ="rounded" src="Assets/Photos/HabitTracker.png">
         </div>
-      </div>
-      <div class="col mx-2" style="border:1px solid black">
-        <p></p>
-      </div>
-      <div class="col-sm-auto" style="border:1px solid black">
-        <div class="p-3 border bg-light">
-          <h1>Lorem Ipsum</h1>
-          <p><span>Lorem Ipsum</span></p>
+        <div class="col-sm mx-5 mb-4 mt-4">
+          <p>The Habit Tracker built upon using a web-framework called Nuxt3. The styling comes from Tailwindcss, the
+            frontend is built upon Vue, which is a Javascript framework.</p>
+          <button class="btn btn-outline-secondary" type="submit"
+            onclick="window.open('https://css-habits.vercel.app/')"> View Habit Tracker</button>
+        </div>
+        <div class="col-sm-2">
+          <h1 class="fw-bold fs-1">Habit Tracker</h1>
+          <p><span>Let's user track Habits</span></p>
         </div>
       </div>
     </div>
