@@ -114,3 +114,38 @@ img {
     opacity: 1;
     visibility: visible;
 }
+
+.hidden{
+    opacity: 0;
+    filter:blur(10px);
+    transform: translateX(-100%);
+    transition: all 2s;
+    position: relative;
+
+}
+
+.show{
+    position: relative;
+    opacity: 1;
+    filter:blur(0);
+    transform: translateX(0);
+}
+
+.nav-link{
+    font-size:15px;
+}
+
+.transition{
+    animation: transitionIn 1s;
+ }
+ 
+ @keyframes transitionIn {
+     from{
+         opacity: 0;
+         transoform: translateX(-100%)
+     }
+     to{
+         transform: translate(0);
+         opacity: 1;
+     }
+ }

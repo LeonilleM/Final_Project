@@ -62,3 +62,22 @@ body {
     opacity: 1;
     visibility: visible;
 }
+
+.nav-link{
+    font-size:15px;
+}
+
+.transition{
+   animation: transitionIn 1s;
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transoform: translateX(-100%)
+    }
+    to{
+        transform: translate(0);
+        opacity: 1;
+    }
+}

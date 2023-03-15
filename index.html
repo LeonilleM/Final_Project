@@ -9,6 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="stylesheet" href="./Assets/Style/style.css">
+ <script defer src="./Assets/JS/transition.js"></script>
 </head>
 
 <body>
@@ -39,16 +40,16 @@
       </div>
     </nav>
     <!-- introduction -->
-    <div class="transitions">
-      <div class="container py-5 my-5 ">
-        <div class="row justify-content-end">
+    <div class="transition">
+      <div class="container py-5 mt-5">
+        <div class="row">
           <div class="col-auto">
             <h2 class="animationText-v1">
               <strong style="font-weight:300;">HI, I'M LEONILLE MATUNAN</strong><br>
               <strong class="animationText-v2 u-text-animation-v1 u-text-animation-v1--typing"></strong>
           </div>
         </div>
-        <div class="row justify-content-center" style="margin-top:10rem">
+        <div class="row" style="margin-top:10rem">
           <div class="col-auto">
             <p style="color:white">Welcome to my Final Project Portfolio for BIMD233!</p>
           </div>
@@ -57,12 +58,11 @@
     </div>
   </div>
 
-
-  <!--Projects -->
+     <!--Projects -->
   <div class="container px-4 pb-5" style="margin-top:15rem" id="project">
     <hr>
     <!--In Class Projects-->
-    <div class="row justify-content-center pb-5 mb-5">
+    <div class="row justify-content-center pb-5 mb-5 hidden">
       <!--Headline-->
       <div class="col-auto my-2 pb-4">
         <h1 class="display-4">BIMD233 WORK</h1>
@@ -103,14 +103,13 @@
       </div>
     </div>
 
-    <!--Personal Project 1-->
+    <!--Personal Project-->
     <hr>
-    <div class="row justify-content-center pb-5">
+    <div class="row justify-content-center pb-5 hidden">
       <!--Headline-->
       <div class="col-auto my-2 pb-4">
         <h1 class="display-4">PERSONAL WORKS</h1>
       </div>
-
       <!--Personal Project1-->
       <div class="row gx-5 justify-content-center">
         <div class="col-sm-2">
@@ -129,7 +128,6 @@
           <img class="rounded" src="/Assets/Photos/weather.png">
         </div>
       </div>
-
       <!--Personal Project2-->
       <div class="row justify-content-center gx-5 mt-5 pt-3">
         <div class="col-sm-6 d-flex justify-content-center align-items-center">
@@ -148,9 +146,6 @@
       </div>
     </div>
   </div>
-
-
-
 
   <!--Footer-->
   <div class="container py-5"></div>
@@ -178,7 +173,7 @@
       <!--Body Portion-->
       <div class="row pt-3">
         <div class="col px-0">
-          <p class="my-0 px-0">Leonille Matunan</p>
+          <p class="my-0 px-0"><a href="#" style="color:white; text-decoration: none;">Leonille Matunan</a></p>
         </div>
         <div class="col text-end px-0">
           <div class="d-inline text-white mx-1"><a href="https://github.com/leonillem" target="_blank">Github</a></div>
@@ -195,7 +190,6 @@
       </div>
     </div>
   </div>
-
 
   <!-- Optional JavaScript -->
   <script src="./Assets/JS/copyLink.js"></script>
