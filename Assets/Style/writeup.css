@@ -1,3 +1,69 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.write-up-body {
+    line-height: 2;
+    text-indent: 40px;
+}
+
+.footer-img {
+    background-image: url(../Photos/photo2.jpg);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+.d-inline > a{
+    text-decoration: none;
+    color:white;
+}
+
+#copy-right{
+    font-size:12px;
+}
+
+#email {
+    font-size: 12px;
+}
+
+#email:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#email:hover::before {
+    content: "Copy: ";
+}
+
+#email:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    transform: translateX(-80%);
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 12px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+#email[data-tooltip]:hover::after {
+    opacity: 1;
+    visibility: visible;
 }

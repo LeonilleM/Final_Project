@@ -26,13 +26,13 @@
           <div class="mx-auto"></div>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link mx-2" href="#project" style="color:white">PROJECTS</a>
+              <a class="nav-link" href="#project" style="color:white">PROJECTS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-2" href="about.html" style="color:white">ABOUT</a>
+              <a class="nav-link" href="about.html" style="color:white">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-2" href="writeup.html" style="color:white">WRITEUP</a>
+              <a class="nav-link" href="writeup.html" style="color:white">WRITEUP</a>
             </li>
           </ul>
         </div>
@@ -81,16 +81,16 @@
             onclick="window.open('https://students.washington.edu/leonille/midterm/')"> View Midterm</button>
         </div>
         <div class="col-sm-6 d-flex justify-content-center align-items-center">
-          <img class ="rounded" src="/Assets/Photos/midterm.jpg">
+          <img class="rounded" src="/Assets/Photos/midterm.jpg">
         </div>
       </div>
 
       <!--Class Project2-->
       <div class="row justify-content-center gx-5 mt-5 pt-3">
         <div class="col-sm-6 d-flex justify-content-center align-items-center">
-          <img class ="rounded" src="Assets/Photos/LabExample.png">
+          <img class="rounded" src="Assets/Photos/LabExample.png">
         </div>
-        <div class="col-sm mx-5 mb-4 mt-4">
+        <div class="col-sm mx-5 mb-4 mt-2">
           <p>The labs we've done in class help improve upon my current skillsets when it came to building websites.
             Through the labs, I was able to learn new techniques on properly building websites.</p>
           <button class="btn btn-outline-secondary" type="submit"
@@ -126,16 +126,16 @@
             onclick="window.open('https://github.com/LeonilleM/WeatherApp')"> View Weather Repo</button>
         </div>
         <div class="col-sm-6 d-flex justify-content-center align-items-center">
-          <img class ="rounded" src="/Assets/Photos/weather.png">
+          <img class="rounded" src="/Assets/Photos/weather.png">
         </div>
       </div>
 
       <!--Personal Project2-->
       <div class="row justify-content-center gx-5 mt-5 pt-3">
         <div class="col-sm-6 d-flex justify-content-center align-items-center">
-          <img class ="rounded" src="Assets/Photos/HabitTracker.png">
+          <img class="rounded" src="Assets/Photos/HabitTracker.png">
         </div>
-        <div class="col-sm mx-5 mb-4 mt-4">
+        <div class="col-sm mx-5 mb-4 mt-2">
           <p>The Habit Tracker built upon using a web-framework called Nuxt3. The styling comes from Tailwindcss, the
             frontend is built upon Vue, which is a Javascript framework.</p>
           <button class="btn btn-outline-secondary" type="submit"
@@ -154,29 +154,51 @@
 
   <!--Footer-->
   <div class="container py-5"></div>
-  <div class="footer-img  py-1">
-    <div class="container-fluid">
+  <div class="footer-img pt-3">
+    <!--Navigation-->
+    <div class="container ">
       <div class="row">
-        <div class="col-auto">
+        <div class="col-auto px-0">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link mx-2" href="#project" style="color:white">PROJECTS</a>
+              <a class="nav-link py-0 " href="#project" style="color:white">PROJECTS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-2" href="#project" style="color:white">ABOUT</a>
+              <a class="nav-link py-0" href="./about.html" style="color:white">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-2" href="#project" style="color:white">RESUME</a>
+              <a class="nav-link py-0" href="./writeup.html" style="color:white">WRITEUP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-0" href="./Assets/College Resume.pdf" target="_blank" style="color:white">RESUME</a>
             </li>
           </ul>
+        </div>
+      </div>
+      <!--Body Portion-->
+      <div class="row pt-3">
+        <div class="col px-0">
+          <p class="my-0 px-0">Leonille Matunan</p>
+        </div>
+        <div class="col text-end px-0">
+          <div class="d-inline text-white mx-1"><a href="https://github.com/leonillem" target="_blank">Github</a></div>
+          <div class="d-inline text-white"><a href="https://www.linkedin.com/in/leonille-matunan/"
+              target="_blank">LinkedIn</a></div>
+        </div>
+        <hr class="my-0" style=" background-color: white; height: 2px; opacity: .8;">
+        <div class="col px-0">
+          <p id="copy-right" class="my-0 px-0">2022 by Leonille Matunan</p>
+        </div>
+        <div class="col text-end px-0">
+          <div id="email" data-clipboard-text="leonille@uw.edu" class="d-inline text-white mx-1">leonille@uw.edu</div>
         </div>
       </div>
     </div>
   </div>
 
 
-
-
+  <!-- Optional JavaScript -->
+  <script src="./Assets/JS/copyLink.js"></script>
   <!--IMPORTS FROM JS-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
