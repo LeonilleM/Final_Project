@@ -21,6 +21,10 @@ To run the website locally, follow these steps:
 - Browse through the different sections of the website to view my projects, writeup, and About Me section.
 - Interact with the typing animations and other animations to enhance the user experience.
 
+## Live Demo
+Check out my portfolio [here](https://students.washington.edu/leonille/Final_Project/).
+
+
 ## Credits
 - Bootstrap v5: [https://getbootstrap.com/](https://getbootstrap.com/)
 - jQuery: [https://jquery.com/](https://jquery.com/)
