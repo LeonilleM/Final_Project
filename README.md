@@ -30,4 +30,4 @@ Check out my portfolio [here](https://students.washington.edu/leonille/Final_Pro
 - jQuery: [https://jquery.com/](https://jquery.com/)
 
 ## Contact
-For any questions or inquiries, please contact me at [your-email@example.com](mailto:leonillematunan@gmail.com).
+For any questions or inquiries, please contact me at [leonillematunan@gmail.com](mailto:leonillematunan@gmail.com).
